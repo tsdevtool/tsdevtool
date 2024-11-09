@@ -1,29 +1,29 @@
-import { useDispatch, useSelector } from "react-redux";
-import styled from "styled-components";
-import { decrement, increment } from "./redux/slides/counterSlice";
+import React, { Fragment } from "react";
+import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
+import DefaultComponent from "./components/DefaultComponent/DefaultComponent";
+import { routes } from "./routes";
 function App() {
-  const count = useSelector((state) => state.counter.value);
-  const dispatch = useDispatch();
-  const Button = styled.button({
-    backgroundColor: "blue",
-  });
   return (
     <div>
-      <div>
-        <Button
-          aria-label="Increment value"
-          onClick={() => dispatch(increment())}
-        >
-          Increment
-        </Button>
-        <span>{count}</span>
-        <Button
-          aria-label="Decrement value"
-          onClick={() => dispatch(decrement())}
-        >
-          Decrement
-        </Button>
-      </div>
+      <Router>
+        <Routes>
+          {routes.map((route) => {
+            const Page = route.page;
+            const Layout = route.isShowHeader ? DefaultComponent : Fragment;
+            return (
+              <Route
+                key={route.path}
+                path={route.path}
+                element={
+                  <Layout>
+                    <Page />
+                  </Layout>
+                }
+              />
+            );
+          })}
+        </Routes>
+      </Router>
     </div>
   );
 }
