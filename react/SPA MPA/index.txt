@@ -1,0 +1,62 @@
+React là thư viên JS dùng để xây dựng giao diện người dùng
+
+# SPA - Single Page Application
+- ReactJS là 1 trong những thư viện tạo ra SPA
+- Các 'ông lớn' sử dụng SPA: Google,Facebook
+- Các SPA khác: F8, Shoppe, chotot
+
+## Cách triển khai
+- SPA -Single-Page Application --- SCR - Client side rendering
+- MPA - Multi-Page Application --- SSR -> Server side rendering
+
+-----
+## Sự khác biệt
+### SPA
+- là cách tiếp cận hiện đại hơn
+- chỉ cần tải 1 trang web duy nhất
+- không yêu cầu tải lại trang trong qt sử dụng
+
+### MPA 
+- Cách tiếp cận cổ điển hơn
+- Yêu cầu tải lại trang trong quá trình sử dụng
+
+
+---------
+## So sánh
+### Tốc độ
+- SPA nhanh hơn khi sử dụng
+    - Phần lớn tài nguyên tải trong lần đầu
+    - Trang chỉ tải thêm dữ liệu mới khi cần
+- MPA chậm hơn khi sử dụng
+    - Luôn tải lại trang khi truy cập và chuyển hướng
+
+### Bóc tách
+- SPA có phần font-end riêng biệt
+ -MPA Front-end & Back-end phụ thuộc nhiều hơn, đặt trong cùng 1 dự án
+
+### SEO
+- SPA không thân thiện với SEO như MPA
+- Trải nghiệm trên thiết bị di động tốt hơn
+
+### UX
+- SPA cho trải nghiệm tốt hơn, nhất là chuyển trang
+- Trải nghiệm tốt hơn trên thiết bị di động
+
+### Quá trình phát triển
+- SPA dễ dàng tái sử dụng code (component)
+- SPA bóc tách FE & BE
+    - Chia team phát triển song song
+    - Phát triển thêm mobile app dễ dàng
+
+### Phụ thuộc JS
+- SPA phụ thuộc hoàn toàn vào JavaScript
+- MPA có thể không cần JS
+
+### Performance
+- Đỡ ảnh hưởng đến tải tới server
+- 
+
+----
+
+## Chọn SPA hay MPA?
+- Tùy    
