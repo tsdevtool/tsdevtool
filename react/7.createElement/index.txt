@@ -1,0 +1,18 @@
+Document{
+    Root element<html>{
+        Element<head>{
+            Element<title>{
+                Text: "Mytitle"
+            }
+        }
+        Element<body>{
+            Attribute: "href"
+            Element<a>:{
+                text: mylink
+            }
+            Element<h1>{
+                Text: My head
+            }
+        }
+    }
+}
