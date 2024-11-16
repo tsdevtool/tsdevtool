@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin></script>
+</head>
+<body>
+    <!-- 
+        1. Tại sao phải dùng React-DOM?
+            để render react element ra trình duyệt
+            nó là cầu nối giữa react và dom
+            react-native: dùng trong code ios, android cầu nối giữa react và native
+        2. Tại sao phải tách React-DOM ra?
+            ...
+        3. Render UI
+        
+    -->
+        <div id="root"></div>
+    <script>
+        const divReact = React.createElement('div',{
+            className:'title',
+        }, React.createElement('h2',{
+            title:'Học React tại F8'
+        },'Học ReactJS'),React.createElement('p',null,'Học ReactJS từ cơ bản tới nâng cao'))
+        console.log(divReact)
+        //Get root elememt
+        const root = document.getElementById('root')
+        // ReactDOM-> renderUI
+        // ReactDOM.render(<reactElement>,<conainer>)
+        ReactDOM.render(divReact,root)
+    </script>
+
+</body>
+
+</html>
