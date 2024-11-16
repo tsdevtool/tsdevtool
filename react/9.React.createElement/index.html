@@ -5,17 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin></script>
-
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin></script>
 </head>
 <body>
     <!-- <h1>React.createElement</h1> -->
+     <div id="root"></div>
     <script>
         // DOM
         const h1DOM = document.createElement('h1');
         h1DOM.title = 'Hello';
         h1DOM.className = 'heading';
         h1DOM.innerText = 'Hello Guys';
-        document.body.appendChild(h1DOM);
+        // document.body.appendChild(h1DOM);
 
         //React
         const h1React = React.createElement('h1',{
@@ -24,6 +25,9 @@
         },'Hello guys');
         //Chua the show ra vi can thu vien react-dom
         console.log(h1React)
+
+        // const root = document.getElementById('root');
+        // ReactDOM.createRoot(h1React,root)
     </script>
     <script>
         const ulDOM = document.createElement('ul');
@@ -33,11 +37,16 @@
         liDOM2.innerText = 'ReacJS';
         ulDOM.appendChild(liDOM1);
         ulDOM.appendChild(liDOM2);
-        document.body.appendChild(ulDOM);
+        // document.body.appendChild(ulDOM);
 
         //React
         const ulReact = React.createElement('ul',null,React.createElement('li',null,'JavaScript'), React.createElement('li',null,'ReactJS'))
         console.log(ulReact)
+    
+        const container = document.getElementById('root');
+        const root = ReactDOM.createRoot(container)
+        // root.render(h1React)
+        root.render(ulReact)
     </script>
 
     <script>
