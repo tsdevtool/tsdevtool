@@ -1,6 +1,23 @@
 
 
+/*
+function run(a) {
+    if(a%3 === 0 && a%5 === 0) {
+        return 3;
+    }else if(a%5 === 0){
+        return 2;
+    }else if(a%3===0){
+        return 1;
+    }
+}
 
+
+// Kỳ vọng
+console.log(run(3)) // 1
+console.log(run(5)) // 2
+console.log(run(15)) // 3
+
+/*
 // Hãy tạo hàm getRandomItem, hàm này nhận 1 tham số là mảng và sẽ trả về ngẫu nhiên 1 phần tử của mảng.
 function getRandomItem(array){
     var randomIndex = Math.floor(Math.random()*array.length)
@@ -23,7 +40,7 @@ console.log(getRandomItem(arrrays));
 /**Để vượt qua thử thách này, bạn hãy tạo một object constructor Student gồm: firstName, lastName. Sau đó, định nghĩa thêm phương thức là getFullName, phương thức này sẽ trả về tên đầy đủ của sinh viên.
 
 Giữa firstName và lastName cần có 1 khoảng trắng (1 dấu space). */
-
+/*
 function Student(firstName, lastName){
     this.firstName = firstName;
     this.lastName = lastName;
