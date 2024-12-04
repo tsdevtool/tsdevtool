@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="78e1a470-4a5f-44a6-ad2d-a45fa720ad4e" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../bai1/main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/file.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/buoi3/BufferedOutputStreamEx1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/buoi3/CharArrayReaderEx1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/buoi3/CharArrayReaderEx2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/buoi3/DataInputOutputStreamEx1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/buoi3/FileReaderEx3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/buoi3/InetAddressEx1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/buoi3/InetAddressEx2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/buoi3/ReaderWriterEx1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/buoi4/TCPClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/buoi4/TCPServerEx1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/buoi4/TimeClientEx1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/buoi4/TimeClientEx2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/buoi4/TimeServerEx2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/buoi4/URLConnectionEx1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/buoi4/URLEncodeExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/buoi4/URLEx1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/buoi4/URLOpenStreamEx1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled.iml" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 4
+}]]></component>
+  <component name="ProjectId" id="2ph40UdeVUYrTCxfRCaNwSSYOFD" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "study/java__socket",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/GithubClone/tsdevtool/java_socket/untitled"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="78e1a470-4a5f-44a6-ad2d-a45fa720ad4e" name="Changes" comment="" />
+      <created>1733204751176</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1733204751176</updated>
+    </task>
+    <servers />
+  </component>
+</project>
