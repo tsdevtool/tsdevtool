@@ -1,22 +1,22 @@
-var a = 1;
-var b = 2;
+// var a = 1;
+// var b = 2;
 
-/**Toan tu logic */
-/**Toan tu so sanh */
-var ketQua = a > b;
-console.log(ketQua); //false
-/**Toan tu gan */
+// /**Toan tu logic */
+// /**Toan tu so sanh */
+// var ketQua = a > b;
+// console.log(ketQua); //false
+// /**Toan tu gan */
 
-a += b; // a = a + b
-console.log(a);
-/**Toan tu so hoc */
-// Vượt qua thử thách này bằng cách tạo biến nextAge để lưu số tuổi tiếp theo được tính toán từ giá trị của biến age. Ví dụ: age = 35 thì nextAge sẽ là 36.
-var age = 20;
-var nextAge = age + 1;
-console.log(nextAge); // 21
-// Lưu ý: không thay đổi giá trị của biến age.
-var c = a + b;
-console.log(c);
+// a += b; // a = a + b
+// console.log(a);
+// /**Toan tu so hoc */
+// // Vượt qua thử thách này bằng cách tạo biến nextAge để lưu số tuổi tiếp theo được tính toán từ giá trị của biến age. Ví dụ: age = 35 thì nextAge sẽ là 36.
+// var age = 20;
+// var nextAge = age + 1;
+// console.log(nextAge); // 21
+// // Lưu ý: không thay đổi giá trị của biến age.
+// var c = a + b;
+// console.log(c);
 /*
     Built-in ham xay dung san
 */
@@ -42,3 +42,11 @@ console.log(c);
 
 // alert(fullName);
 // alert(age);
+
+
+function ham(a){
+    case 1:
+    case 3:
+}
+
+console.log(ham(5)); // 10
