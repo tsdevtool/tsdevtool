@@ -1,30 +1,63 @@
 
-Array.prototype.myMap = function(cb) {
-    if(typeof cb !== 'function'){
-        return cb(new Error("This is not a function"));
-    }else{
-        var results = [];
-        var length = this.length;
-        for(var i = 0; i<length; i++){
-            results.push(cb(this[i], i));
+Array.prototype.myFilter = function(cb) {
+    var output = [];
+    for(var i in this){
+        if(this.hasOwnProperty(i)){
+            var results = cb(this[i],i,this)
+            if(results){
+                output.push(this[i]);
+            }
         }
-        return results;
-    }
+    }    
+    return output;
 }
 
+var array = [
+    {
+        name: "John",
+        age: 20
+    },
+    {
+        name: "Jane",
+        age: 25
+    },
+    {
+        name: "Mike",
+        age: 30
+    }
+]
 
-const numbers = [1,2,3,4]
-
-var myMap = numbers.myMap(function(number,i) {
-    return number;
+var results = array.myFilter(function(value, index, array){
+    return value.age > 24;
 })
 
-console.log(myMap); // Output: [1, 2, 3, 4]
-// const numbers = [1, 2, 3];
+console.log(results)
+// Array.prototype.myMap = function(cb) {
+//     if(typeof cb !== 'function'){
+//         return cb(new Error("This is not a function"));
+//     }else{
+//         var results = [];
+//         var length = this.length;
+//         for(var i = 0; i<length; i++){
+//             results.push(cb(this[i], i));
+//         }
+//         return results;
+//     }
+// }
 
-console.log(numbers.myMap(function (number) {
-    return number * 2;
-})) // Output: [2, 4, 6]
+
+// const numbers = [1,2,3,4]
+
+// var myMap = numbers.myMap(function(number,i) {
+//     return number;
+// })
+
+// console.log(myMap); // Output: [1, 2, 3, 4]
+// // const numbers = [1, 2, 3];
+
+// console.log(numbers.myMap(function (number) {
+//     return number * 2;
+// })) // Output: [2, 4, 6]
 // function sumCb(a, b) {
 //     return a + b
 // }
