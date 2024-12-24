@@ -1,4 +1,4 @@
-# HOCLAI14_Nhom1_NguyenThanhSieu
+# NguyenThanhSieu
 ![Banner](https://avatars.githubusercontent.com/u/122494878?s=400&u=d4076e7f162e6e2493b789501ff3638a7c512b6c&v=4)
 # Hello! 👋 I'm Nguyễn Thanh Siêu
 - 💻 Software Engineer
