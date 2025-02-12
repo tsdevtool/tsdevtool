@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="demo"></div>
+
+    <script>
+      document.getElementById("demo").innerHTML = "This is javascript";
+      var tong = TongHaiSo(3, 4);
+      console.log("Tong = " + tong);
+
+      var arr = new Array();
+      arr = ["item1", "item2", "item3"];
+      for (var i = 0; i < arr.length; i++) {
+        console.log(arr[i]);
+      }
+
+      function TongHaiSo(a, b) {
+        var tong = a + b;
+        return tong;
+      }
+
+      var person = { name: "Nguyen A", age: 18 };
+      var person1 = { name: "Nguyen B", age: 19 };
+
+      console.log(person.name + person1.name);
+
+      class Car {
+        color;
+        constructor(name, year) {
+          this.name = name;
+          this.year = year;
+        }
+
+        TongHaiSo(a, b) {
+          var tong = a + b;
+          return tong;
+        }
+      }
+
+      var car = new Car("car 1", 2000);
+      console.log(car);
+      console.log(car.TongHaiSo(2, 3));
+    </script>
+  </body>
+</html>
